@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 20px;
+}
+.input{
+    text-align: center;
+}
+.container{
+    background-color: rgb(210, 209, 209);
+    width: 40%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    
+}
+input{
+    width: 80%;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin: 20px 10px;
+    border: none;
+}
+.btn{
+    margin-bottom: 20px;
+}
+.task{
+    background-color: rgba(159, 159, 158, 0.614);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 5px;
+
+}
+.task > div{
+    width: 100%;
+}
+.deleteButton{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
